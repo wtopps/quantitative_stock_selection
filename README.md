@@ -1,2 +1,22 @@
-# quantitative_stock_selection
-Use quantitative strategies to select potential A-share stocks
+# Quantitative Chinese A-share Stock Selection
+使用量化策略选择有潜力的A股股票
+
+目前分为两种策略：
+
+1、超短线持有选择策略，使用 scan_stock_vx.py
+
+建议使用时段，交易日下午2点半开始执行，挑选选取结果中分数大于85分的股票
+
+建议第二天抛出，不要长期持有
+
+2、中短期持有选择策略，使用select_stock_v2_enhanced.py
+
+还在验证中
+
+
+
+本策略支持历史选股结果回测，验证胜率
+
+本策略选取结果仅供参考，不作为投资意见，不作为投资意见，不作为投资意见，不作为投资意见，不作为投资意见
+
+股市有风险，入市需谨慎，人工的智能才是最强智能
